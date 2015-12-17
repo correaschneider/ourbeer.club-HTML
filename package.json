@@ -1,0 +1,22 @@
+{
+  "name": "OurBeer.Club.Html",
+  "version": "0.0.0",
+  "description": "OurBeer.Club with Material Design and AngularJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:correaschneider/ourbeer.club.html.git"
+  },
+  "author": "Pedro Schneider",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/correaschneider/ourbeer.club.html/issues"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-util": "~3.0.7"
+  }
+}

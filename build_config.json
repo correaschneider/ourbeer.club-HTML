@@ -1,0 +1,14 @@
+{
+	"build_dir": "public",
+	"build_dir_js": "public/assets/vendor/js",
+	"build_dir_css": "public/assets/vendor/css",
+	"vendor_files": {
+		"js": [
+			"node_modules/jquery/dist/jquery.min.js",
+			"node_modules/bootstrap/dist/js/bootstrap.min.js"
+		],
+		"css": [
+			"node_modules/bootstrap/dist/css/bootstrap.min.css"
+		],
+	}
+}
