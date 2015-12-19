@@ -1,14 +1,48 @@
 {
-	"build_dir": "public",
-	"build_dir_js": "public/assets/vendor/js",
-	"build_dir_css": "public/assets/vendor/css",
-	"vendor_files": {
-		"js": [
-			"node_modules/jquery/dist/jquery.min.js",
-			"node_modules/bootstrap/dist/js/bootstrap.min.js"
-		],
-		"css": [
-			"node_modules/bootstrap/dist/css/bootstrap.min.css"
-		],
+	"build": {
+		"dir": "public",
+		"files": {
+			"assets": {
+				"js": "public/assets/js",
+				"css": "public/assets/css",
+				"fonts": "public/assets/fonts",
+				"img": "public/assets/img",
+				"vendor": {
+					"js": "public/assets/vendor/js",
+					"css": "public/assets/vendor/css",
+					"fonts": "public/assets/vendor/fonts",
+					"img": "public/assets/vendor/img"
+				}
+			}
+		}
+	},
+	"files": {
+		"vendor": {
+			"js": [
+				"node_modules/jquery/dist/jquery.min.js",
+				"node_modules/bootstrap/dist/js/bootstrap.min.js",
+				"node_modules/bootstrap-material-design/dist/js/material.min.js",
+				"node_modules/bootstrap-material-design/dist/js/ripples.min.js"
+			],
+			"css": [
+				"node_modules/bootstrap/dist/css/bootstrap.min.css",
+				"node_modules/bootstrap-material-design/dist/css/material.min.css",
+				"node_modules/bootstrap-material-design/dist/css/material-fullpalette.min.css",
+				"node_modules/bootstrap-material-design/dist/css/ripples.min.css",
+				"node_modules/bootstrap-material-design/dist/css/roboto.min.css"
+			],
+			"fonts": [
+				"node_modules/bootstrap/dist/fonts/*",
+				"node_modules/bootstrap-material-design/dist/fonts/*"
+			],
+			"img": []
+		},
+		"assets": {
+			"js": "source/assets/js/*.js",
+			"css": "source/assets/css/*.css",
+			"fonts": "source/assets/fonts/*",
+			"img": "source/assets/img/*"
+		},
+		"html": "source/*.html"
 	}
 }

@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "gulp": "~3.9.0",
-    "gulp-util": "~3.0.7"
+    "gulp-util": "~3.0.7",
+    "gulp-livereload": "~3.8.1"
   }
 }
